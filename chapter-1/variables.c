@@ -54,3 +54,34 @@ int main(){
     int finalNum = 30;
     return 0;
 }
+
+
+//Variables Data Types----[those are main data types]
+#include <stdio.h>
+int main(){
+    int number = 40;       //Integer
+    char star = "*";       //Character
+    float salary = 120.5;  //Float
+    return 0;
+}
+
+
+#include<stdio.h>
+
+int main(){
+    int age = 20;
+    float pi = 3.14;
+    char star = '*';
+    printf("age is %d \n",age);  
+    printf("pi is %f \n",pi);
+    printf("star is %c \n",star);
+    return 0;
+}
+
+//? ->  \n use for new line
+
+/* NOTE: 
+%d for integer 
+%f for float
+%c for character 
+*/
