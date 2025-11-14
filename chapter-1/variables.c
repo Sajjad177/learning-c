@@ -140,3 +140,31 @@ int main() {
 
     return 0;
 }
+
+
+// problem-3: Write a program to convert Celsius temperature to Fahrenheit. (Celsius is given)
+// Formula: F = (C × 9/5) + 32
+
+#include <stdio.h>
+
+int main() {
+    float celsius;
+    scanf("%f", &celsius);
+
+    float fahrenheit = (celsius * 9/5) + 32;
+    printf("the result is: %f \n", fahrenheit);
+
+    return 0;
+}
+
+// Problem-4: Write a program to find the square of a number. (number is given)
+
+#include <stdio.h>
+
+int main() {
+    int num;
+    scanf("%d", &num);
+
+    printf("result is: %d \n", num * num);
+    return 0;
+}

@@ -12,18 +12,15 @@
 // }
 
 
-//Problem -2: Write a program to calculate area of a circle.(radius is given)
+// Problem-4: Write a program to find the square of a number. (number is given)
 
 #include <stdio.h>
 
 int main() {
-    float length, width;
+    int num;
+    scanf("%d", &num);
 
-    scanf("%f", &length);
-    scanf("%f", &width);
-
-    float perimeter = 2 * (length + width);
-    printf("Perimeter of rectangle: %f\n", perimeter);
+    printf("result is: %d \n", num * num);
 
     return 0;
 }
