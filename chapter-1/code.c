@@ -1,11 +1,26 @@
+//Problem-1: Write a program to calculate area of a square.(side is given)
+
+// #include<stdio.h>
+
+// int main(){
+//     int side;
+//     printf("enter side");
+//     scanf("%d", &side);
+
+//     printf("area is : %d", side * side);
+//     return 0;
+// }
+
+
+//Problem -2: Write a program to calculate area of a circle.(radius is given)
+
 #include<stdio.h>
 
 int main(){
-    int age = 20;
-    float pi = 3.14;
-    char star = '*';
-    printf("age is %d \n",age);
-    printf("pi is %f \n",pi);
-    printf("star is %c \n",star);
+    float radius;
+    printf("radius value");
+    scanf("%f", &radius);
+
+    printf("value is: %f \n", 3.14 * radius * radius );
     return 0;
 }

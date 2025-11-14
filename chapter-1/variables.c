@@ -85,3 +85,56 @@ int main(){
 %f for float
 %c for character 
 */
+
+
+#include<stdio.h>
+
+int main(){
+    int age;
+    printf("Enter your age: ");
+    scanf("%d",&age);  // add input function
+    printf("Your age is %d",age);
+    return 0;
+}
+
+//Example of sum ------
+#include<stdio.h>
+
+int main(){
+    int a, b;
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+    printf("Enter the value of b: ");
+    scanf("%d", &b);
+    int sum = a + b;
+    printf("The sum of %d and %d is %d \n", a, b, sum);
+    return 0;
+}
+
+//! --------------------PROBLEMS-------------------------
+
+//Problem -1: Write a program to calculate area of a circle.(radius is given)
+
+#include<stdio.h>
+
+int main(){
+    float radius;
+    printf("radius value");
+    scanf("%f", &radius);
+
+    printf("value is: %f \n", 3.14 * radius * radius );
+    return 0;
+}
+
+//Problem -2: Write a program to calculate the perimeter of a rectangle. (length and width are given)
+#include <stdio.h>
+
+int main() {
+    float r;
+    scanf("%f", &r);
+
+    float area = 3.14 * r * r;
+    printf("Area of circle: %f\n", area);
+
+    return 0;
+}
