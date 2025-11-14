@@ -14,13 +14,16 @@
 
 //Problem -2: Write a program to calculate area of a circle.(radius is given)
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    float radius;
-    printf("radius value");
-    scanf("%f", &radius);
+int main() {
+    float length, width;
 
-    printf("value is: %f \n", 3.14 * radius * radius );
+    scanf("%f", &length);
+    scanf("%f", &width);
+
+    float perimeter = 2 * (length + width);
+    printf("Perimeter of rectangle: %f\n", perimeter);
+
     return 0;
 }

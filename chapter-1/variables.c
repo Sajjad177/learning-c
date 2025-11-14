@@ -130,11 +130,13 @@ int main(){
 #include <stdio.h>
 
 int main() {
-    float r;
-    scanf("%f", &r);
+    float length, width;
 
-    float area = 3.14 * r * r;
-    printf("Area of circle: %f\n", area);
+    scanf("%f", &length);
+    scanf("%f", &width);
+
+    float perimeter = 2 * (length + width);
+    printf("Perimeter of rectangle: %f\n", perimeter);
 
     return 0;
 }
