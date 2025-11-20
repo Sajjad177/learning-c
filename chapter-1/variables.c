@@ -168,3 +168,5 @@ int main() {
     printf("result is: %d \n", num * num);
     return 0;
 }
+
+// Problem-5:  Write a program to calculate simple interest. (principal, rate and time are given)
