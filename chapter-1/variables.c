@@ -78,7 +78,7 @@ int main(){
     return 0;
 }
 
-//? ->  \n use for new line
+//? [\n] --> use for new line.
 
 /* NOTE: 
 %d for integer 
@@ -169,4 +169,4 @@ int main() {
     return 0;
 }
 
-// Problem-5:  Write a program to calculate simple interest. (principal, rate and time are given)
+// Problem-5: Write a program to calculate simple interest. (principal, rate and time are given)
