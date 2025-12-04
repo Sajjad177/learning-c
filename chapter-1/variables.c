@@ -170,3 +170,5 @@ int main() {
 }
 
 // Problem-5: Write a program to calculate simple interest. (principal, rate and time are given)
+
+// again see the video for better understanding
