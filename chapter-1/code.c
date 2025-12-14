@@ -24,3 +24,5 @@ int main() {
 
     return 0;
 }
+
+// Problem-5: sum between 1 + 2
